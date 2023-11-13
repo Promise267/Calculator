@@ -90,7 +90,7 @@ namespace WindowsFormsApp1
             String email = textBox4.Text;
             String dateOfBirth = dateTimePicker1.Text;
 
-            MessageBox.Show("You Entered");
+            MessageBox.Show("You Entered" + "\n" + fName + "\n" + lName + "\n" + address + "\n" + email + "\n" + dateOfBirth);
         }
     }
 }
